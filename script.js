@@ -13,7 +13,7 @@ function compute()
         	resetprincipal.value = resetprincipal.defaultValue; // Sets the default value for the amount input field ;
             var resetresult = document.getElementById("result"); // Sets the reference for the variable;
             resetresult.innerHTML = ""; // Sets the default value for the result span;
-            resetprincipal.focus; // Sets focus at the amount input field;
+            resetprincipal.focus(); // Sets focus at the amount input field;
             
             } else {
         
