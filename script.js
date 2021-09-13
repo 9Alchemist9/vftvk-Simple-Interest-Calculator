@@ -9,8 +9,10 @@ function compute()
 
         	if(principal <= 0){
             alert("Insert a positive number!"); // Shows an alert
-            var resetprincipal = document.getElementById('principal'); // Set the reference for the variable;
-        	resetprincipal.value = resetprincipal.defaultValue; // Sets the default value to the amount input field ;
+            var resetprincipal = document.getElementById("principal"); // Sets the reference for the variable;
+        	resetprincipal.value = resetprincipal.defaultValue; // Sets the default value for the amount input field ;
+            var resetresult = document.getElementById("result"); // Sets the reference for the variable;
+            resetresult.innerHTML = ""; // Sets the default value for the result span;
             Document.getElementById("principal").focus; // Sets focus at the amount input field;
             
             } else {
