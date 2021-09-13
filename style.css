@@ -1,4 +1,18 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white} /* Defines the <body> features, such as background color, font type and font color; */
+		h1{color:grey;font-family:verdana} /* Defines the h1 font color and font type; */
+		.maindiv{ /* Creates a <div> wich will receive the input fields and labels and defines its elements features; */
+   	 		background-color:white;
+   	 		color:black;
+   	 		width:500px;
+    		padding:20px;
+    		border-radius:25px;
+   	 		align:center;
+       	 	margin:auto;
+	}
 
+/* Defines paddin and the left margin for the article content*/
 
+article{
+    padding:5px;
+    margin-left:85px;
+}
